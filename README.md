@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 !Ruta Improvisada
 
-## Getting Started
+**Descubre Antioquia como nunca antes**. Este es un blog de rutas reales, municipios encantadores, cultura viva y recomendaciones que no vas a encontrar en ningún otro lado. Hecho por y para viajeros que quieren conocer lo mejor de Colombia, sin improvisar.
 
-First, run the development server:
+## 🗺️ ¿Qué es este proyecto?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+`!Ruta Improvisada` es un sitio web desarrollado con **Next.js 15** que recopila información clave de todos los municipios de Antioquia. Antes de viajar, podrás saber:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🚌 Cómo llegar desde Medellín
+- 🌦️ Clima promedio
+- 🏛️ Historia del municipio
+- 🍽️ Gastronomía local
+- 🏞️ Qué ver, qué hacer y por qué ir
+- 🤳 Opiniones reales de viajeros (próximamente)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧑‍💻 Stack actual
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 15](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Google Fonts](https://fonts.google.com/) (Inter + Bricolage Grotesque)
+- [Vercel](https://vercel.com/) (hosting)
 
-## Learn More
+## 🏗️ En desarrollo
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Estructura base del proyecto
+- ✅ Configuración de rutas estáticas para cada municipio
+- ⏳ Base de datos inicial de municipios
+- ⏳ Sistema de comentarios y reacciones (fase 2)
+- ⏳ Panel para contribuciones comunitarias (fase 3)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Filosofía del proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> Viajar informado es viajar con propósito.  
+> ¡Nada de improvisar!
 
-## Deploy on Vercel
+## 🌐 Dominio oficial
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 [https://rutaimprovisada.com](https://rutaimprovisada.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Instagram
+
+Síguenos y viajá con nosotros → [@ruta.improvisada](https://instagram.com/ruta.improvisada)
+
+## 🤝 Contribuciones
+
+Por ahora el proyecto es cerrado, pero si querés sumar ideas, contenidos o mejoras, contactanos por Instagram. Más adelante abriremos una sección para contribuciones comunitarias.
+
+---
+
+> Hecho con ❤️ y verraquera desde Colombia.
