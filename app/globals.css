@@ -43,10 +43,6 @@
       font-size: var(--text-2xl);
     }
   }
-
-  p {
-    margin-bottom: 24px;
-  }
 }
 
 .container-blog {
