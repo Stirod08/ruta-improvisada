@@ -11,8 +11,8 @@ const enlacesRedesSociales = [
 export default function RedesSoaciales() {
   return (
     <>
-      {enlacesRedesSociales.map(({ platform, username }) => (
-        <div>
+      <div>
+        {enlacesRedesSociales.map(({ platform, username }) => (
           <Link
             key={platform}
             href={`https://www.${platform}.com/${username}`}
@@ -21,8 +21,8 @@ export default function RedesSoaciales() {
           >
             {platform}
           </Link>
-        </div>
-      ))}
+        ))}
+      </div>
     </>
   );
 }
