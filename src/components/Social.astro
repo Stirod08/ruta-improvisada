@@ -1,0 +1,40 @@
+---
+const { source, className } = Astro.props;
+
+import {
+  IoLogoDiscord,
+  IoLogoFacebook,
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoLogoTiktok,
+  IoLogoWhatsapp,
+  IoLogoYoutube,
+} from 'react-icons/io5';
+
+const socialIcons = [
+  { name: 'facebook', href: source.facebook, icon: IoLogoFacebook },
+  { name: 'instagram', href: source.instagram, icon: IoLogoInstagram },
+  { name: 'youtube', href: source.youtube, icon: IoLogoYoutube },
+  { name: 'linkedin', href: source.linkedin, icon: IoLogoLinkedin },
+  { name: 'github', href: source.github, icon: IoLogoGithub },
+  { name: 'discord', href: source.discord, icon: IoLogoDiscord },
+  { name: 'whatsapp', href: source.whatsapp, icon: IoLogoWhatsapp },
+  { name: 'tiktok', href: source.tiktok, icon: IoLogoTiktok },
+];
+---
+
+<ul class={className}>
+  {
+    socialIcons.map(
+      ({ name, href, icon: Icon }) =>
+        href && (
+          <li class="inline-block">
+            <a aria-label={name} title={name} href={href} target="_blank" rel="noopener noreferrer nofollow">
+              <Icon />
+            </a>
+          </li>
+        ),
+    )
+  }
+</ul>

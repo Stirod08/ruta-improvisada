@@ -1,0 +1,10 @@
+---
+import Social from '@/components/Social.astro';
+import social from '@/config/social.json';
+const today = new Date();
+---
+
+<footer class="py-8 px-4 bg-gray-900 text-verde-100 text-center">
+  &copy; {today.getFullYear()} !Ruta Improvisada. Todos los derechos reservados.
+  <div class="flex justify-center"><Social source={social} className="social-icons" /></div>
+</footer>

@@ -53,3 +53,22 @@
 .link-hover {
   @apply hover:text-verde-300 hover:cursor-pointer hover:scale-110 text-verde-100 font-bold transition duration-300 ease-in-out;
 }
+
+/* social icon style */
+.social-icons {
+  @apply space-x-4 mt-8;
+  li {
+    @apply inline-block;
+    a {
+      @apply block h-9 w-9 rounded-full border border-verde-400 text-center text-white transition hover:bg-verde-600;
+
+      svg {
+        @apply m-auto h-9 fill-verde-100;
+      }
+
+      &:hover svg {
+        @apply fill-white;
+      }
+    }
+  }
+}
