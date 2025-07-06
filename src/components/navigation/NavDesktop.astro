@@ -1,0 +1,17 @@
+---
+const linksDesktop = [
+  { name: 'Inicio', href: '/' },
+  { name: 'Sobre Nosotros', href: '/about' },
+  { name: 'Blog', href: '/blog' },
+];
+---
+
+<nav class="hidden md:flex gap-8">
+  {
+    linksDesktop.map((enlace) => (
+      <a class="link-hover" href={enlace.href} aria-label={enlace.name}>
+        {enlace.name}
+      </a>
+    ))
+  }
+</nav>
