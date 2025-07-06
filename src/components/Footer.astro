@@ -1,10 +1,18 @@
 ---
 import Social from '@/components/Social.astro';
 import social from '@/config/social.json';
+import LogoTexto from './branding/LogoTexto.astro';
 const today = new Date();
 ---
 
 <footer class="py-8 px-4 bg-gray-900 text-verde-100 text-center">
-  &copy; {today.getFullYear()} !Ruta Improvisada. Todos los derechos reservados.
-  <div class="flex justify-center"><Social source={social} className="social-icons" /></div>
+  <div class="flex justify-center mb-4">
+    <Social source={social} className="social-icons" />
+  </div>
+  <div class="flex flex-col md:flex-row items-center justify-center gap-2 text-sm">
+    <p class="m-0">&copy; {today.getFullYear()} Todos los derechos reservados.</p>
+    <a href="/" class="link-hover">
+      <LogoTexto />
+    </a>
+  </div>
 </footer>

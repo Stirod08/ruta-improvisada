@@ -11,7 +11,17 @@
   --color-verde-800: oklch(0.3484 0.0547 163.36);
   --color-verde-900: oklch(0.207 0.0299 168.19);
   --font-inter: 'Inter', sans-serif;
-  --font-merriweather: 'Merriweather Variable', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-inter);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @layer base {
@@ -22,15 +32,16 @@
   }
 
   h1 {
-    font-family: var(--font-merriweather);
     font-size: var(--text-3xl);
     @media screen and (min-width: 768px) {
       font-size: var(--text-4xl);
+      text-align: var(text-center);
+      font-weight: var(--font-weight-extrabold);
+      text-transform: uppercase;
     }
   }
 
   h2 {
-    font-family: var(--font-merriweather);
     font-size: var(--text-2xl);
     @media screen and (min-width: 768px) {
       font-size: var(--text-3xl);
@@ -38,7 +49,6 @@
   }
 
   h3 {
-    font-family: var(--font-merriweather);
     font-size: var(--text-xl);
     @media screen and (min-width: 768px) {
       font-size: var(--text-2xl);
@@ -56,7 +66,7 @@
 
 /* social icon style */
 .social-icons {
-  @apply space-x-4 mt-8;
+  @apply space-x-4;
   li {
     @apply inline-block;
     a {

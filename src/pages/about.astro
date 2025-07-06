@@ -1,0 +1,74 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Sobre Nosotros"
+  description="Explora rutas reales por Colombia, descubre pueblos mágicos, su cultura, gastronomía y gente berraca."
+>
+  <section class="px-4 py-12 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-extrabold mb-12 text-center text-primary tracking-tight">Sobre Nosotros</h2>
+
+    <div class="space-y-24">
+      <!-- QUIÉNES SOMOS -->
+      <article class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold text-secondary mb-4">¿Quiénes somos?</h3>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Ruta Improvisada nace del deseo de visibilizar pueblos que rara vez aparecen en los mapas turísticos...
+          </p>
+        </div>
+        <img
+          src="/src/assets/img/guadalupe.jpg"
+          alt="Ruta por Antioquia"
+          class="rounded-xl shadow-xl w-full h-auto object-cover"
+        />
+      </article>
+
+      <!-- MISIÓN -->
+      <article class="grid md:grid-cols-2 gap-10 items-center">
+        <img
+          src="/src/assets/img/guadalupe.jpg"
+          alt="Nuestra Misión"
+          class="rounded-xl shadow-xl w-full h-auto object-cover order-2 md:order-1"
+        />
+        <div class="order-1 md:order-2">
+          <h3 class="text-2xl font-semibold text-secondary mb-4">Nuestra Misión</h3>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Promover el turismo consciente y auténtico, destacando las riquezas culturales y naturales de cada rincón de
+            Antioquia...
+          </p>
+        </div>
+      </article>
+
+      <!-- VALORES -->
+      <article>
+        <h3 class="text-2xl font-semibold text-secondary mb-4">Nuestros Valores</h3>
+        <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-lg text-gray-700 list-disc list-inside">
+          <li>Autenticidad</li>
+          <li>Pasión por lo local</li>
+          <li>Respeto cultural</li>
+          <li>Accesibilidad</li>
+          <li>Sostenibilidad</li>
+          <li>Colaboración con comunidades</li>
+        </ul>
+      </article>
+
+      <!-- VISIÓN -->
+      <article class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold text-secondary mb-4">Nuestra Visión</h3>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Ser la plataforma referente para descubrir y conectar con los pueblos de Antioquia, generando un impacto
+            social, cultural y económico positivo...
+          </p>
+        </div>
+        <img
+          src="/src/assets/img/guadalupe.jpg"
+          alt="Visión de la marca"
+          class="rounded-xl shadow-xl w-full h-auto object-cover"
+        />
+      </article>
+    </div>
+  </section>
+</BaseLayout>
