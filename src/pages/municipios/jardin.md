@@ -1,10 +1,11 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'jardin'
 pubDate: 2025-07-06
 description: 'Jardin es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
 author: '!Ruta Improvisada'
 image:
-  url: 'https://docs.astro.build/assets/full-logo-light.png'
+  url: 'https://docs.astro.build/assets/arc.webp'
   alt: 'El logotipo completo de Astro.'
 tags: ['Nordeste', 'Antioquia', 'Municipio']
 ---
