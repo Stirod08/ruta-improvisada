@@ -1,13 +1,10 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: 'jardin'
+title: 'liborina'
 pubDate: 2025-07-06
-description: 'Jardin es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
+description: 'liborina es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
 author: '!Ruta Improvisada'
-image:
-  url: 'https://docs.astro.build/assets/arc.webp'
-  alt: 'El logotipo completo de Astro.'
-tags: ['Nordeste', 'Antioquia', 'Municipio']
+image: '/assets/img/guadalupe.jpg'
+tags: ['occidente', 'antioquia', 'municipio']
 ---
 
 # Mi primera publicación en el blog

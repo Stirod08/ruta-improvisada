@@ -1,22 +1,16 @@
-// import { defineCollection, z } from 'astro:content';
-// //import { glob } from 'astro/loaders'; // Not available with legacy API
+import { z, defineCollection } from 'astro:content';
+// Define un `loader` y un `schema` para cada colección
+const municipios = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    date: z.date().optional(),
+    image: z.string().optional(),
+    authors: z.array(z.string()).default(['admin']),
+    tags: z.array(z.string()).default(['others']),
+  }),
+});
 
-// const pueblos = defineCollection({
-//   //loader: glob({ pattern: '**/*.md', base: './src/content/pueblos/' }),
-
-//   schema: z.object({
-//     title: z.string(),
-//     slug: z.string(),
-//     description: z.string(),
-//     image: z.string().optional(),
-//     departamento: z.string(),
-//     region: z.string(),
-//     distancia_desde_medellin_km: z.number(),
-//     clima: z.string(),
-//     temperatura_promedio: z.string(),
-//     tiempo_estimada_desde_medellin: z.string(),
-//     fecha_publicacion: z.coerce.date(),
-//   }),
-// });
-
-// export const collections = { pueblos };
+export const collections = { municipios };

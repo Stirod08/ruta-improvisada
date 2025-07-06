@@ -1,13 +1,10 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: 'rionegro'
+title: 'jardin'
 pubDate: 2025-07-06
-description: 'Rionegro es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
+description: 'Jardin es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
 author: '!Ruta Improvisada'
-image:
-  url: 'https://docs.astro.build/assets/arc.webp'
-  alt: 'El logotipo completo de Astro.'
-tags: ['Nordeste', 'Antioquia', 'Municipio']
+image: '/assets/img/guadalupe.jpg'
+tags: ['suroeste', 'antioquia', 'municipio']
 ---
 
 # Mi primera publicación en el blog

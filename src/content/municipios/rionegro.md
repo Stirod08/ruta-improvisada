@@ -1,16 +1,15 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: 'guadalupe'
+title: 'rionegro'
 pubDate: 2025-07-06
-description: 'Guadalupe es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
+description: 'Rionegro es un municipio de Antioquia en Colombia con una riqueza cultural y natural.'
 author: '!Ruta Improvisada'
-image:
-  url: 'https://docs.astro.build/assets/arc.webp'
-  alt: 'El logotipo completo de Astro.'
-tags: ['Nordeste', 'Antioquia', 'Municipio']
+image: '/assets/img/guadalupe.jpg'
+tags: ['oriente', 'antioquia', 'municipio']
 ---
 
 # Mi primera publicación en el blog
+
+Publicado el: 2022-07-01
 
 ¡Bienvenido a mi _nuevo blog_ sobre el aprendizaje de Astro! Aquí, voy a compartir mi viaje de aprendizaje a medida que construyo un nuevo sitio web.
 

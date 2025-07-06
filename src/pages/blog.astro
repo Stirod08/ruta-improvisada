@@ -1,16 +1,17 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
+import BlogPost from '@/components/BlogPost.astro';
+import { getCollection } from 'astro:content';
 
-const allposts = await Astro.glob('../pages/municipios/*.md');
+const municipios = await getCollection('municipios');
 ---
 
 <BaseLayout
-  title="Blog"
+  title="Blog 2"
   description="Explora rutas reales por Colombia, descubre pueblos mágicos, su cultura, gastronomía y gente berraca."
 >
   <p>Desde BLOG</p>
   <ul>
-    {allposts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+    {municipios.map((municipio) => <BlogPost url={`/municipios/${municipio.slug}`} title={municipio.data.title} />)}
   </ul>
 </BaseLayout>
