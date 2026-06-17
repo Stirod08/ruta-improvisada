@@ -2,6 +2,7 @@
 
 ## Funcionalidades
 
+- Regiones
 - Municipios
 - Lugares turísticos
 - Rutas

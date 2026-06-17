@@ -1,5 +1,15 @@
 # Colecciones
 
+## Regiones
+
+Contendrá:
+
+- nombre
+- slug
+- descripción
+- portada
+- municipios
+
 ## Municipios
 
 Contendrá:

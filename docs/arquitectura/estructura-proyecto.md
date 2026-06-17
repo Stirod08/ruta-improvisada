@@ -4,6 +4,7 @@ src/
 │
 ├── components/
 ├── content/
+│ ├── regiones/
 │ ├── municipios/
 │ ├── lugares/
 │ ├── rutas/
